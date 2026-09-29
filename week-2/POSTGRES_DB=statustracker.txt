@@ -1,0 +1,4 @@
+POSTGRES_DB=statustracker
+POSTGRES_USER=appuser
+POSTGRES_PASSWORD=changeme
+HOST_PORT=<your assigned port, e.g. 8086>
