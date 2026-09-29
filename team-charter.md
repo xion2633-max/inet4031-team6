@@ -15,6 +15,7 @@
 | Ayden v Chhunn | QA |
 | Trisha Xiong | Developer |
 | Trina Sayaratha | Developer |
+| Saad Ali | |
 
 ## Role One-Sentence Descriptions
 
@@ -31,12 +32,12 @@ Every team member must hold Scrum Master, System Admin, and QA at least once acr
 
 ```
 Sprint 1: Scrum Master = Passion, System Admin: Milka, QA = Ayden, Developers = Trisha, Trina
-Sprint 2: Scrum Master = Milka, System Admin: Ayden, QA = Trisha, Developers = Trina, Passion
-Sprint 3: Scrum Master = Ayden, System Admin: Trisha, QA = Trina, Developers = Passion, Milka
-Sprint 4: Scrum Master = Trisha, System Admin: Trina, QA = Passion, Developers = Milka, Ayden
-Sprint 5: Scrum Master = Trina, System Admin: Passion, QA = Milka, Developers = Ayden, Trisha
-Sprint 6: Scrum Master = Passion, System Admin: Milka, QA = Ayden, Developers = Trisha, Trina
-Sprint 7: Scrum Master = Milka, System Admin: Ayden, QA = Trisha, Developers = Trina, Passion
+Sprint 2: Scrum Master = Milka, System Admin: Ayden, QA = Trisha, Developers = Trina, Passion, Saad
+Sprint 3: Scrum Master = Ayden, System Admin: Trisha, QA = Trina, Developers = Passion, Saad, Milka
+Sprint 4: Scrum Master = Trisha, System Admin: Trina, QA = Passion, Developers = Saad, Milka, Ayden
+Sprint 5: Scrum Master = Trina, System Admin: Passion, QA = Saad, Developers = Milka, Ayden, Trisha
+Sprint 6: Scrum Master = Passion, System Admin: Saad, QA = Milka, Developers = Ayden, Trisha, Trina
+Sprint 7: Scrum Master = Saad, System Admin: Milka, QA = Ayden, Developers = Trisha, Trina, Passion
 ```
 
 ## Three Team Operating Agreements
