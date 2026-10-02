@@ -58,7 +58,7 @@ docker compose restart db
 
 **Actual Result:**
 ```
-TODO: Paste the output showing the incident was retrieved after restart
+Screenshotted in Google docs!
 ```
 
 **Status:** TODO: [X] Pass [ ] Fail
