@@ -1,4 +1,4 @@
-# INET 4031: Team [number] Repository
+# INET 4031: Team 6 Repository
 
 This is the semester-long repository for our team's INET 4031 Systems Administration
 project: an incident-tracking application built and operated across nine weeks,
