@@ -83,10 +83,19 @@
       become_user: "{{ lookup('env', 'SUDO_USER') or lookup('env', 'USER') }}"
       changed_when: docker_current_context.stdout | default('') != 'default'
     
-    - name: Deploy application stack
+    # - name: Deploy application stack
+    #   hosts: localhost
+    #   connection: local
+    #   become: yes
+
+    #   roles:
+    #     - app-stack
+
+    - name: Set up k3d cluster
       hosts: localhost
       connection: local
       become: yes
-
+      environment:
+        PATH: "/usr/local/bin:{{ ansible_env.PATH }}"
       roles:
-        - app-stack
+        - k3d-setup
