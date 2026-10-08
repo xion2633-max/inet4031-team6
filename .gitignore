@@ -32,3 +32,6 @@ ENV/
 .env.local
 .env*.local
 week-2/.env
+infrastructure/terraform.tfstate
+infrastructure/terraform.tfstate.backup
+infrastructure/.terraform/
