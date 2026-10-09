@@ -4,8 +4,8 @@ QA is responsible for running all validation checks and signing off before deliv
 
 This week the team writes OpenTofu and Ansible code but does not run `tofu` or `ansible-playbook`. The checks below read your files and inspect your live cluster. The commands your team predicted in the Prediction Log are checked later, during the live rebuild.
 
-**QA Team Member:** [Name]
-**Date Completed:** [Date]
+**QA Team Member:** Trisha
+**Date Completed:** October 8, 2026
 
 ---
 
@@ -19,7 +19,8 @@ This week the team writes OpenTofu and Ansible code but does not run `tofu` or `
 
 **Actual Result:**
 ```
-TODO: Paste the actual output
+TODO:   backend "local" {
+    path = "terraform.tfstate"
 ```
 
 **Status:** TODO: [ ] Pass [ ] Fail
@@ -36,7 +37,7 @@ TODO: Paste the actual output
 
 **Actual Result:**
 ```
-TODO: Paste the actual output
+TODO: TODO: 11:    replicas = 3
 ```
 
 **Status:** TODO: [ ] Pass [ ] Fail
@@ -53,7 +54,7 @@ TODO: Paste the actual output
 
 **Actual Result:**
 ```
-TODO: Paste the actual output
+TODO: flask-secret.yaml
 ```
 
 **Status:** TODO: [ ] Pass [ ] Fail
@@ -70,7 +71,10 @@ TODO: Paste the actual output
 
 **Actual Result:**
 ```
-TODO: Paste the actual output
+TODO: infrastructure/terraform.tfstate*
+infrastructure/terraform.tfstate
+infrastructure/terraform.tfstate.backup
+infrastructure/.terraform/
 ```
 
 **Status:** TODO: [ ] Pass [ ] Fail
@@ -87,7 +91,8 @@ TODO: Paste the actual output
 
 **Actual Result:**
 ```
-TODO: Paste the actual output
+TODO: ansible/roles/opentofu-setup/tasks/main.yml
+        - opentofu-setup
 ```
 
 **Status:** TODO: [ ] Pass [ ] Fail
@@ -104,7 +109,11 @@ TODO: Paste the actual output
 
 **Actual Result:**
 ```
-TODO: Paste the actual output of kubectl get pods
+TODO: NAME                     READY   STATUS    RESTARTS      AGE
+db-8665d99849-2dtrx      1/1     Running   0             92m
+flask-569d566cd8-xvrrl   1/1     Running   0             90m
+flask-569d566cd8-z8cpn   1/1     Running   0             17m
+nginx-74965d859d-rkp8h   1/1     Running   2 (92m ago)   96m
 ```
 
 **Status:** TODO: [ ] Pass [ ] Fail
@@ -119,7 +128,7 @@ TODO: Paste the actual output of kubectl get pods
 
 **Expected:** P1 through P10 each have a prediction with one sentence of reasoning. The Actual column is filled in for P8 only.
 
-**Actual Result:** TODO: Record how many rows are complete and any missing reasoning
+**Actual Result:** TODO: All rows completed
 
 **Status:** TODO: [ ] Pass [ ] Fail
 
@@ -135,7 +144,60 @@ TODO: Paste the actual output of kubectl get pods
 
 **Actual Result:**
 ```
-TODO: Paste the full output of the check script
+TODO: TODO: =========================================
+Week 4 Validation Checks
+=========================================
+
+Check 1: Local Backend Is Explicit
+-----------------------------------------
+[PASS] File exists: infrastructure/main.tf
+[PASS] infrastructure/main.tf has a local backend with path terraform.tfstate
+[PASS] infrastructure/main.tf declares the kubernetes provider
+
+Check 2: Flask Deployment Is Set to 3 Replicas
+-------------------------------------------------
+[PASS] File exists: infrastructure/flask.tf
+[PASS] flask.tf defines the flask Deployment
+[PASS] flask.tf defines the flask Service
+[PASS] flask.tf uses week-2-flask:latest with image_pull_policy IfNotPresent
+[PASS] flask.tf sets replicas = 3
+
+Check 3: Week 3 Flask Manifests Removed
+------------------------------------------
+[PASS] manifests/flask-deployment.yaml is removed and committed
+[PASS] manifests/flask-service.yaml is removed and committed
+[PASS] manifests/flask-secret.yaml is kept
+
+Check 4: State and Working Files Ignored
+-------------------------------------------
+[PASS] infrastructure/terraform.tfstate is gitignored
+[PASS] infrastructure/terraform.tfstate.backup is gitignored
+[PASS] infrastructure/.terraform/providers is gitignored
+
+Check 5: Ansible Role Is in Place
+-------------------------------------
+[PASS] File exists: ansible/roles/opentofu-setup/tasks/main.yml
+[PASS] opentofu-setup role runs tofu init
+[PASS] ansible/site.yml includes the opentofu-setup role
+[WARN] could not inspect the opentofu-setup play in ansible/site.yml (check its YAML syntax)
+[PASS] tofu is installed on this VM (instructor-provided)
+
+Check 6: Live Cluster Is Still Healthy
+-----------------------------------------
+[PASS] flask Deployment still exists in the live cluster
+[PASS] Found 2 pod(s) labeled app=flask
+[PASS] All 4 pods are Running and fully Ready
+
+=========================================
+Validation Summary
+=========================================
+Passed: 21
+Failed: 0
+
+Not checked by this script (QA confirms in the Google Doc): the Prediction Log (P1 to P10).
+
+Status: ALL CHECKS PASSED
+```
 ```
 
 **Status:** TODO: [ ] Pass [ ] Fail
