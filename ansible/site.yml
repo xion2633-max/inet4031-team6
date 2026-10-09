@@ -99,3 +99,9 @@
         PATH: "/usr/local/bin:{{ ansible_env.PATH }}"
       roles:
         - k3d-setup
+
+    - name: Initialize OpenTofu
+      hosts: localhost
+      connection: local
+      roles:
+        - opentofu-setup
