@@ -21,7 +21,6 @@ observability, security hardening, and backup/recovery.
 | Milka D Tessema|
 | Ayden v Chhunn|
 | Trisha Xiong |
-| Trina Sayarath |
 
 See `team-charter.md` for role assignments and the 7-sprint rotation schedule.
 
