@@ -51,6 +51,8 @@ repo, it will never replace this repository.
 All sprint reflections, screenshots, and storage-check output are recorded in this
 document as each week's wiki directions require.
 
+**Project Board:** https://github.com/users/xion2633-max/projects/1/views/1
+
 ## Getting Started
 
 1. Read the Week 1 wiki directions completely before beginning.
