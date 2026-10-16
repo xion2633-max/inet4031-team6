@@ -19,8 +19,15 @@ This week the team writes OpenTofu and Ansible code but does not run `tofu` or `
 
 **Actual Result:**
 ```
+<<<<<<< Updated upstream
 TODO:   backend "local" {
     path = "terraform.tfstate"
+=======
+TODO: f
+  backend "local" {
+    path = "terraform.tfstate"
+  }
+>>>>>>> Stashed changes
 ```
 
 **Status:** TODO: [ ] Pass [ ] Fail
@@ -37,7 +44,11 @@ TODO:   backend "local" {
 
 **Actual Result:**
 ```
+<<<<<<< Updated upstream
 TODO: TODO: 11:    replicas = 3
+=======
+TODO: 11:    replicas = 3
+>>>>>>> Stashed changes
 ```
 
 **Status:** TODO: [ ] Pass [ ] Fail
@@ -144,7 +155,11 @@ nginx-74965d859d-rkp8h   1/1     Running   2 (92m ago)   96m
 
 **Actual Result:**
 ```
+<<<<<<< Updated upstream
 TODO: TODO: =========================================
+=======
+TODO: =========================================
+>>>>>>> Stashed changes
 Week 4 Validation Checks
 =========================================
 
@@ -197,7 +212,10 @@ Failed: 0
 Not checked by this script (QA confirms in the Google Doc): the Prediction Log (P1 to P10).
 
 Status: ALL CHECKS PASSED
+<<<<<<< Updated upstream
 ```
+=======
+>>>>>>> Stashed changes
 ```
 
 **Status:** TODO: [ ] Pass [ ] Fail
