@@ -1,4 +1,16 @@
----
+serverFiles:
+  alerting_rules.yml:
+    groups:
+      - name: flask-error-rate
+        interval: 1m
+        rules:
+          - alert: HTTP5xxErrorRateHigh
+            expr: sum(rate(flask_http_request_duration_seconds_count{status=~"5.."}[5m])) / sum(rate(flask_http_request_duration_seconds_count[5m])) > 0.01
+            for: 1m
+            labels:
+              severity: warning
+            annotations:
+              summary: "Flask is returning more than 1% 5xx responses"
 # Prometheus Values Configuration
 # This file configures the prometheus-community/prometheus Helm chart (version 29.35.0).
 # It is sized for a VM shared by several teams. Anything not listed here keeps the chart's default.
