@@ -2,8 +2,8 @@
 
 QA is responsible for running all validation checks and signing off before deliverables are submitted. This report documents the validation process.
 
-**QA Team Member:** [Name]
-**Date Completed:** [Date]
+**QA Team Member:** Milka Tessema
+**Date Completed:** 2026-10-24
 
 ## Executive Summary
 
@@ -13,12 +13,12 @@ TODO: Provide a brief summary of the testing results, including pass/fail status
 
 ### Test Suite 1: Helm and Prometheus Installation
 
-- [ ] Helm installation successful
-- [ ] Prometheus community repository added
+- [x] Helm installation successful
+- [x] Prometheus community repository added
 - [ ] Prometheus (`prometheus` chart 29.35.0) deployed without errors
-- [ ] All monitoring pods reached Running state
+- [x] All monitoring pods reached Running state
 
-**Result:** [TODO: PASS/FAIL]
+**Result:** PARTIAL PASS - 3 of 4 checks verified; chart deployment/version not yet verified 
 
 **Notes:** 
 TODO: Record any observations about the installation process, timeouts, or resource constraints.
@@ -30,7 +30,7 @@ TODO: Record any observations about the installation process, timeouts, or resou
 - [ ] Prometheus query for `container_cpu_cfs_throttled_periods_total` returns data
 - [ ] At least one metric series returned
 
-**Result:** [TODO: PASS/FAIL - THIS IS MANDATORY FOR WEEK 9]
+**Result:** NOT YET VERIFIED - CPU throttling meteric check skipped; Prometheus query and metric series still need verification
 
 **Metric Series Count:** [TODO: Number of series returned]
 
@@ -45,7 +45,7 @@ TODO: If this test fails, record what was attempted to fix it (upgrade, reconfig
 - [ ] CPU Throttle Rate query returns data
 - [ ] HTTP 5xx Error Rate query runs (no results is expected until a 5xx occurs)
 
-**Result:** [TODO: PASS/FAIL]
+**Result:** NOT YET VERIFIED - USE quaries and Prometheus port-forward have not been tested 
 
 **Queries Verified:**
 - [ ] Flask CPU Utilization: [TODO: Data visible Y/N]
@@ -57,19 +57,19 @@ TODO: Record any issues with queries or metric availability.
 
 ### Test Suite 4: Prometheus Alert Rule
 
-- [ ] Error rate alert configured
+- [x] Error rate alert configured
 - [ ] Alert threshold set correctly (> 1%)
 - [ ] Alert duration set correctly (1 minute)
 - [ ] Alert rule loaded (`HTTP5xxErrorRateHigh` listed by the rules check)
 
-**Result:** [TODO: PASS/FAIL]
+**Result:** PARTIAL PASS - Alert configured; threshold, duratration and active rule status not yet verified
 
 **Notes:**
 TODO: Record alert configuration details and any issues encountered.
 
 ### Test Suite 5: k6 Load Testing
 
-- [ ] k6 installed successfully
+- [x] k6 installed successfully
 - [ ] smoke-test.js created and formatted correctly
 - [ ] Load test runs without errors
 - [ ] Prometheus query results respond to load test activity
@@ -92,17 +92,17 @@ TODO: Document metrics observed during load test and any anomalies.
 
 ### Test Suite 6: Validation Scripts
 
-- [ ] check-week5.sh exists and is executable
+- [x] check-week5.sh exists and is executable
 - [ ] All validation checks pass
-- [ ] Exit code is 0
-- [ ] Script output is clear and actionable
+- [x] Exit code is 0
+- [x] Script output is clear and actionable
 
-**Result:** [TODO: PASS/FAIL]
+**Result:** PARTIAL PASS - 9 checks passed, 0 failed, 1 skipped (CPU throttling metric not verified).
 
 **Validation Results:**
-- [ ] All monitoring pods running: PASS/FAIL
-- [ ] cAdvisor scrape job and alert rule configured: PASS/FAIL
-- [ ] container_cpu_cfs_throttled_periods_total returns data: PASS/FAIL
+- [x] All monitoring pods running: PASS
+- [x] cAdvisor scrape job and alert rule configured: PASS
+- [ ] container_cpu_cfs_throttled_periods_total returns data: NOT VERIFIED
 
 ## Cross-Week Dependency Verification
 
@@ -113,18 +113,18 @@ TODO: Document metrics observed during load test and any anomalies.
 - [ ] Metric series is non-empty and consistent
 - [ ] No manual fixes required; this will persist across restarts
 
-**Status:** [VERIFIED/NOT VERIFIED]
+**Status:** NOT VERIFIED
 
 **Notes:** 
 TODO: Confirm that the Week 5 configuration will support Week 9's CPU diagnosis lab. If any issues, document them here.
 
 ## Summary
 
-**Overall Status:** [ ] ALL CHECKS PASS [ ] SOME CHECKS FAIL
+**Overall Status:** [ ] ALL CHECKS PASS [x] SOME CHECKS FAIL
 
-**Blockers:** [List any blockers that prevent submission]
+**Blockers:** CPU throttling metric verification was skipped, Prometheus queries and Week 9 dependency checks still need to be completed
 
-**Corrective Actions Taken:** [List any fixes applied during QA]
+**Corrective Actions Taken:** Added the Prometheus community Helm repository and reran the Week 5 validation script. Results: 9 passed, 0 failed, 1 skipped.
 
 **QA Sign-Off:**
 
