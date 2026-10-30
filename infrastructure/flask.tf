@@ -33,6 +33,7 @@ resource "kubernetes_deployment" "flask" {
       }
 
       spec {
+        service_account_name = "flask-app"
         container {
           name              = "flask"
           image             = "week-2-flask:latest"
