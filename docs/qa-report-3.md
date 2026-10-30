@@ -137,3 +137,64 @@ By signing below, QA certifies that all required validation checks have been exe
 ## Notes for Sprint 4
 
 [Any observations or recommendations for the next sprint]
+
+---
+
+# QA Report - Sprint 3 Week 6
+
+**QA Team Member:** Milka Tessema  
+**Date Completed:** 2026-10-29
+
+## Executive Summary
+
+Week 6 QA validation was completed for the GitHub Actions CI/CD workflows. The automated validation script passed all 6 checks with 0 failures. Manual verification confirmed successful CI workflow runs, branch protection settings, and a successful manual Scheduled Maintenance run.
+
+## Test Results
+
+### Test 1: Automated Validation
+- [x] CI workflow file exists
+- [x] Scheduled Maintenance workflow file exists
+- [x] Both workflow YAML files are valid
+- [x] CI workflow includes push and pull request triggers
+- [x] Scheduled Maintenance includes a cron trigger
+
+**Result:** PASS - 6 automated checks passed, 0 failed.
+
+### Test 2: CI Workflow
+- [x] CI workflow completed successfully
+- [x] Intentional Docker build failure was detected
+- [x] Corrected build passed successfully
+
+**Result:** PASS - GitHub Actions detected the intentional failure and passed after correction.
+
+### Test 3: Branch Protection
+- [x] Main branch protection rule configured
+- [x] Pull requests required before merging
+- [x] One approval required
+- [x] Passing status checks required
+- [x] Branch must be up to date before merging
+- [x] build-and-push required status check configured
+
+**Result:** PASS - Branch protection settings verified through screenshots.
+
+### Test 4: Scheduled Maintenance
+- [x] Scheduled Maintenance workflow completed successfully
+- [x] Manual workflow run verified (27 seconds)
+- [x] Cron trigger configured in workflow YAML
+- [ ] Automatic scheduled execution verified
+
+**Result:** PARTIAL PASS - Manual execution succeeded; automatic scheduled execution has not been verified.
+
+## Evidence
+
+- Terminal screenshot showing 6 passed and 0 failed
+- GitHub Actions CI workflow history
+- Pull request #26 showing intentional failure and corrected build
+- Branch protection screenshots in team Google Doc
+- Scheduled Maintenance successful run screenshot in team Google Doc
+
+## Overall QA Status
+
+**Status:** PASS for automated checks and verified manual configuration checks. Automatic scheduled execution remains unverified.
+
+**Recommendation:** Confirm the Scheduled Maintenance workflow runs automatically on its configured schedule.
