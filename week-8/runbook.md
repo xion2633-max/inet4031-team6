@@ -12,7 +12,7 @@
 5. Verify row count matches pre-incident count
 
 **Measured Before/After vs. Stated Target:**
-- Row count before incident: TODO
-- Row count after restore: TODO
+- Row count before incident: Count 3 (1 row)
+- Row count after restore: Count 3 (1 row)
 - RTO target: 15 minutes
-- Actual RTO: TODO
+- Actual RTO: 4 minutes
