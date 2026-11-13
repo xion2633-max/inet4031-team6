@@ -6,52 +6,30 @@
 
 In this lab, your team builds an automated backup pipeline for your PostgreSQL database, verifies backups actually work under a simulated failure, and measures recovery time against a defined target. You will provision a MinIO container as an S3-compatible backup destination, automate backups with restic via a GitHub Actions scheduled workflow, apply a retention policy, and run a recovery drill.
 
-## Learning Objectives
+## What Went Well
 
-- Provision MinIO as an S3-compatible backup target using a Docker container
-- Configure restic for PostgreSQL data volume backups to an S3-compatible backend
-- Implement a retention policy using `restic forget --prune`
-- Automate backups using a GitHub Actions scheduled workflow with cron syntax
-- Execute a recovery drill and measure actual RTO against a stated target
+My team effectively communicated about pull requests and demonstrated a good understanding of how they work.
 
-## Prerequisites
+## What Could Be Better
 
-- Week 7 complete: security controls applied, CI pipeline passing
-- Application is running with data in the database
+In the recent labs, my team and I have faced challenges in our labs due to errors, which forced us to work on them outside of class.
 
-## Pulling This Week's Starter Content Into Your Team Repo
+## What We'll Do Differently Next Sprint
 
-This repo (`inet4031-week08`) is instructor-provided starter/reference content for
-Week 8, not something you clone standalone. Pull the pieces you need into your
-team's single repo:
+TODO: In the next sprint, my team and I will troubleshoot any errors we encounter ourselves using the document Wendy created.
 
-```bash
-git remote add week8 https://github.com/INET4031-Labs/inet4031-week08.git
-git fetch week8
-git checkout week8/main -- week-8 scripts docs
-git remote remove week8
-```
+## Team Contributions
 
-**`.github/workflows/backup.yml` is not shipped as a file in this repo.** You write it
-yourself, following the wiki, it's the actual exercise for this lab. Do this before
-you start editing `week-8/` locally, or your local changes will be silently
-overwritten by the checkout.
+Use this section to note which team members led which parts of the work:
 
-## Role Distribution
+| Role | Name | Primary Contribution |
+|---|---|---|
+| Scrum Master |Saad | Completed part 3 of lab 9 |
+| System Admin |Trisha | Completed parts 0 and 1 of lab 9 |
+| QA |Ayden | Completed part 4 of lab 9 |
+| Developer 1 |Milka | Completed part 2 of lab 9 |
+| Developer 2+ |Passion, Hanad | Completed validation checks and part 5 of lab 9 |
 
-- **Scrum Master:** sprint process, issue tracking, completion summary
-- **System Admin:** environment health, Docker/MinIO configuration decisions, backup target placement
-- **QA:** validation check verification, recovery drill sign-off before submission
-- **Developer(s):** restic configuration, GitHub Actions workflow, runbook authoring
+## Notes
 
-## Deliverables
-
-- `week-8/restic-env.sh` committed (credentials placeholdered or omitted)
-- `.github/workflows/backup.yml` committed
-- `week-8/runbook.md` committed using the required format
-- Google Doc updated with recovery drill results
-- `./scripts/check-week8.sh` runs clean
-
-## Full Instructions
-
-The complete step-by-step lab, including exact restic configuration and the recovery drill procedure, is in this repo's Wiki tab. This README is a reference, not a substitute.
+Any additional context about the sprint that does not fit the structure above.
