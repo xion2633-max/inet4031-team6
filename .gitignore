@@ -36,3 +36,4 @@ infrastructure/terraform.tfstate
 infrastructure/terraform.tfstate.backup
 infrastructure/.terraform/
 week-8/.env.backup
+week-8/.env.backup
