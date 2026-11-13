@@ -140,35 +140,35 @@ Review the criteria below for each part of this week's deliverables. For each cr
 
 ### Part 1: Provision MinIO
 
-TODO: [ ] `week-8/.env.backup` created with `MINIO_ROOT_USER`, `MINIO_ROOT_PASSWORD`, and `RESTIC_PASSWORD`, added to `.gitignore`
-TODO: [ ] `minio-credentials` Secret created in the `backup` namespace
-TODO: [ ] `week-8/minio.yaml` applied; MinIO pod `1/1 Running` in the `backup` namespace
-TODO: [ ] MinIO port-forward running on the team's assigned MinIO port
-TODO: [ ] `backups` bucket created (via a single combined `docker run` session -- two separate `docker run --rm` calls will not share an `mc` alias between them)
+TODO: [X] `week-8/.env.backup` created with `MINIO_ROOT_USER`, `MINIO_ROOT_PASSWORD`, and `RESTIC_PASSWORD`, added to `.gitignore`
+TODO: [X] `minio-credentials` Secret created in the `backup` namespace
+TODO: [X] `week-8/minio.yaml` applied; MinIO pod `1/1 Running` in the `backup` namespace
+TODO: [X] MinIO port-forward running on the team's assigned MinIO port
+TODO: [X] `backups` bucket created (via a single combined `docker run` session -- two separate `docker run --rm` calls will not share an `mc` alias between them)
 
 ### Part 2: Configure restic Backups
 
-TODO: [ ] `week-8/restic-env.sh` updated with the team's MinIO port, and contains no literal passwords
-TODO: [ ] restic repository initialized (`restic init`)
-TODO: [ ] At least one test backup taken by piping `kubectl exec deploy/db -- pg_dump ...` into `restic backup --stdin`, and `restic dump latest /statustracker.sql | wc -l` shows a non-zero line count
-TODO: [ ] Retention policy applied (`restic forget --prune --keep-daily 7 --keep-weekly 4 --keep-monthly 3`)
+TODO: [X] `week-8/restic-env.sh` updated with the team's MinIO port, and contains no literal passwords
+TODO: [X] restic repository initialized (`restic init`)
+TODO: [X] At least one test backup taken by piping `kubectl exec deploy/db -- pg_dump ...` into `restic backup --stdin`, and `restic dump latest /statustracker.sql | wc -l` shows a non-zero line count
+TODO: [X] Retention policy applied (`restic forget --prune --keep-daily 7 --keep-weekly 4 --keep-monthly 3`)
 
 ### Part 3: Automated Backups via GitHub Actions
 
-TODO: [ ] `.github/workflows/backup.yml` committed with a daily cron trigger and `workflow_dispatch`
-TODO: [ ] `RESTIC_REPOSITORY`, `RESTIC_PASSWORD`, `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY` stored as GitHub Actions secrets
-TODO: [ ] Workflow manually triggered; screenshot captured of the run **failing** at `restic snapshots` with a connection-refused error -- this is the expected, correct result. `RESTIC_REPOSITORY` points at `http://localhost:<your MinIO port>`, which only resolves to your team's own machine locally; a GitHub-hosted runner has no path to reach it. A green checkmark here would actually indicate something is misconfigured, not the reverse.
+TODO: [X] `.github/workflows/backup.yml` committed with a daily cron trigger and `workflow_dispatch`
+TODO: [X] `RESTIC_REPOSITORY`, `RESTIC_PASSWORD`, `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY` stored as GitHub Actions secrets
+TODO: [X] Workflow manually triggered; screenshot captured of the run **failing** at `restic snapshots` with a connection-refused error -- this is the expected, correct result. `RESTIC_REPOSITORY` points at `http://localhost:<your MinIO port>`, which only resolves to your team's own machine locally; a GitHub-hosted runner has no path to reach it. A green checkmark here would actually indicate something is misconfigured, not the reverse.
 
 ### Part 4: Recovery Drill
 
-TODO: [ ] Application healthy in the k3d cluster, MinIO port-forward running, and Flask replica count recorded before starting the drill
-TODO: [ ] Pre-drill row count recorded (Step 16)
-TODO: [ ] Fresh pre-drill backup taken with the `pre-drill` tag (Step 17)
-TODO: [ ] `incidents` table dropped; `curl http://localhost:<your Kubernetes port>/incidents` confirmed an error response (Steps 18-19)
-TODO: [ ] Flask scaled to 0 replicas before restoring (Step 20); `db` stays running, since a SQL restore goes through Postgres itself
-TODO: [ ] Pre-drill dump replayed into the database with `restic dump ... | kubectl exec -i deploy/db -- psql ...` (Step 21)
-TODO: [ ] Flask scaled back to its recorded replica count; post-restore row count matches pre-drill count (Steps 22-23)
-TODO: [ ] RTO measured and recorded, compared against the 15-minute target (Step 24)
+TODO: [X] Application healthy in the k3d cluster, MinIO port-forward running, and Flask replica count recorded before starting the drill
+TODO: [X] Pre-drill row count recorded (Step 16)
+TODO: [X] Fresh pre-drill backup taken with the `pre-drill` tag (Step 17)
+TODO: [X] `incidents` table dropped; `curl http://localhost:<your Kubernetes port>/incidents` confirmed an error response (Steps 18-19)
+TODO: [X] Flask scaled to 0 replicas before restoring (Step 20); `db` stays running, since a SQL restore goes through Postgres itself
+TODO: [X] Pre-drill dump replayed into the database with `restic dump ... | kubectl exec -i deploy/db -- psql ...` (Step 21)
+TODO: [X] Flask scaled back to its recorded replica count; post-restore row count matches pre-drill count (Steps 22-23)
+TODO: [X] RTO measured and recorded, compared against the 15-minute target (Step 24)
 
 ---
 
@@ -176,33 +176,33 @@ TODO: [ ] RTO measured and recorded, compared against the 15-minute target (Step
 
 ### Required Files
 
-TODO: [ ] `week-8/minio.yaml` committed
-TODO: [ ] `week-8/restic-env.sh` committed (MinIO port set, no passwords in it)
-TODO: [ ] `.github/workflows/backup.yml` committed
-TODO: [ ] `week-8/runbook.md` committed using the required format (Symptom, Root Cause, Fix, Measured Before/After)
-TODO: [ ] `scripts/check-week8.sh` present and runs clean
+TODO: [X] `week-8/minio.yaml` committed
+TODO: [X] `week-8/restic-env.sh` committed (MinIO port set, no passwords in it)
+TODO: [X] `.github/workflows/backup.yml` committed
+TODO: [X] `week-8/runbook.md` committed using the required format (Symptom, Root Cause, Fix, Measured Before/After)
+TODO: [X] `scripts/check-week8.sh` present and runs clean
 
 ### GitHub Repository
 
-TODO: [ ] All changes merged into `main` through a pull request
-TODO: [ ] No real MinIO/restic credentials appear anywhere in git history
+TODO: [X] All changes merged into `main` through a pull request
+TODO: [X] No real MinIO/restic credentials appear anywhere in git history
 
 ### Google Doc
 
-TODO: [ ] Screenshot of `restic snapshots` showing at least one snapshot is attached
-TODO: [ ] Screenshot of the application error after `DROP TABLE` is attached
-TODO: [ ] Screenshot of the application returning the correct row count after restore is attached
-TODO: [ ] Screenshot of the backup workflow failing at `restic snapshots` (connection refused) is attached, with the reachability discussion answered
-TODO: [ ] Screenshot of `./scripts/check-week8.sh` passing is attached
-TODO: [ ] Recovery drill results recorded: start time, end time, measured RTO, row count before and after
-TODO: [ ] Discussion answers recorded for Parts 1-4 (backup target failure domain, retention policy risk, RPO, RTO vs. target)
-TODO: [ ] Week 8 storage check recorded, compared to Week 7 baseline
+TODO: [X] Screenshot of `restic snapshots` showing at least one snapshot is attached
+TODO: [X] Screenshot of the application error after `DROP TABLE` is attached
+TODO: [X] Screenshot of the application returning the correct row count after restore is attached
+TODO: [X] Screenshot of the backup workflow failing at `restic snapshots` (connection refused) is attached, with the reachability discussion answered
+TODO: [X] Screenshot of `./scripts/check-week8.sh` passing is attached
+TODO: [X] Recovery drill results recorded: start time, end time, measured RTO, row count before and after
+TODO: [X] Discussion answers recorded for Parts 1-4 (backup target failure domain, retention policy risk, RPO, RTO vs. target)
+TODO: [X] Week 8 storage check recorded, compared to Week 7 baseline
 
 ---
 
 ## Summary
 
-**Overall Status:** [ ] ALL CHECKS PASS [ ] SOME CHECKS FAIL
+**Overall Status:** [X] ALL CHECKS PASS [ ] SOME CHECKS FAIL
 
 **Blockers:** [List any blockers that prevent submission]
 
@@ -212,7 +212,7 @@ TODO: [ ] Week 8 storage check recorded, compared to Week 7 baseline
 
 By signing below, QA certifies that all required validation checks have been executed and all deliverables meet the acceptance criteria.
 
-**QA Signature:** _________________    **Date:** __________
+**QA Signature:** Passion    **Date:** 11.9.26
 
 ---
 
