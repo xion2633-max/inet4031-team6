@@ -8,11 +8,11 @@
 1. Stop Flask to prevent writes: kubectl scale deployment flask --replicas=0
 2. Identify the most recent clean snapshot: restic snapshots
 3. Restore the database dump: restic dump <snapshot-id> /statustracker.sql | kubectl exec -i deploy/db -- psql -U appuser -d statustracker
-4. Restart Flask: kubectl scale deployment flask --replicas=<count>
+4. Restart Flask: kubectl scale deployment flask --replicas=1
 5. Verify row count matches pre-incident count
 
 **Measured Before/After vs. Stated Target:**
-- Row count before incident: TODO
-- Row count after restore: TODO
+- Row count before incident: Count 3 (1 row)
+- Row count after restore: Count 3 (1 row)
 - RTO target: 15 minutes
-- Actual RTO: TODO
+- Actual RTO: 4 minutes
