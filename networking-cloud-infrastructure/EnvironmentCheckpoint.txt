@@ -1,0 +1,62 @@
+k3d cluster list
+NAME     SERVERS   AGENTS   LOADBALANCER
+myapp    1/1       2/2      true
+team-5   1/1       2/2      true
+team1    1/1       2/2      true
+team2    1/1       2/2      true
+team3    1/1       2/2      true
+team6    1/1       2/2      true
+
+kubectl get nodes -o wide
+NAME                 STATUS   ROLES           AGE   VERSION        INTERNAL-IP   EXTERNAL-IP   OS-IMAGE           KERNEL-VERSION                 CONTAINER-RUNTIME
+k3d-team6-agent-0    Ready    <none>          34d   v1.35.5+k3s1   100.97.6.5    <none>        K3s v1.35.5+k3s1   5.14.0-687.64.1.el9_8.x86_64   containerd://2.2.3-k3s1
+k3d-team6-agent-1    Ready    <none>          34d   v1.35.5+k3s1   100.97.6.4    <none>        K3s v1.35.5+k3s1   5.14.0-687.64.1.el9_8.x86_64   containerd://2.2.3-k3s1
+k3d-team6-server-0   Ready    control-plane   34d   v1.35.5+k3s1   100.97.6.3    <none>        K3s v1.35.5+k3s1   5.14.0-687.64.1.el9_8.x86_64   containerd://2.2.3-k3s1
+
+kubectl get deploy,svc,pods -n default
+NAME                    READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/db      1/1     1            1           34d
+deployment.apps/flask   2/2     2            2           27d
+deployment.apps/nginx   1/1     1            1           34d
+
+NAME                 TYPE           CLUSTER-IP      EXTERNAL-IP                        PORT(S)        AGE
+service/db           ClusterIP      10.43.244.169   <none>                             5432/TCP       34d
+service/flask        ClusterIP      10.43.37.32     <none>                             5000/TCP       27d
+service/kubernetes   ClusterIP      10.43.0.1       <none>                             443/TCP        34d
+service/nginx        LoadBalancer   10.43.190.186   100.97.6.3,100.97.6.4,100.97.6.5   80:31423/TCP   34d
+
+NAME                         READY   STATUS    RESTARTS       AGE
+pod/db-78bcbc9bd4-5mwn4      1/1     Running   0              6d23h
+pod/flask-568ccc9777-4h2gv   1/1     Running   0              6d22h
+pod/flask-568ccc9777-s9m7d   1/1     Running   0              6d22h
+pod/nginx-6745b77df6-gt5h4   1/1     Running   147 (8d ago)   34d
+
+kubectl get networkpolicy -n default
+NAME                        POD-SELECTOR   AGE
+allow-flask-to-postgres     app=db         19d
+allow-ingress-to-nginx      app=nginx      19d
+allow-nginx-to-flask        app=flask      19d
+allow-prometheus-to-flask   app=flask      19d
+default-deny-ingress        <none>         19d
+
+kubectl get pods -n monitoring
+NAME                                             READY   STATUS    RESTARTS     AGE
+prometheus-kube-state-metrics-798fb7d7b8-pwkdz   1/1     Running   4 (8d ago)   28d
+prometheus-server-54c89dbbb-mdhz2                2/2     Running   6 (8d ago)   19d
+
+curl -s -o /dev/null -w "%{http_code}\n" http://localhost:$((8096)
+)/health
+200
+
+kubectl top nodes
+NAME                 CPU(cores)   CPU(%)   MEMORY(bytes)   MEMORY(%)
+k3d-team6-agent-0    36m          0%       322Mi           1%
+k3d-team6-agent-1    44m          0%       478Mi           1%
+k3d-team6-server-0   79m          0%       813Mi           2%       
+
+docker ps --filter name=k3d-team6-
+CONTAINER ID   IMAGE                            COMMAND                  CREATED       STATUS      PORTS                NAMES
+ec4a275b8f81   ghcr.io/k3d-io/k3d-proxy:5.9.0   "/bin/sh -c nginx-pr…"   4weeks ago   Up 8 days   0.0.0.0:8096->80/tcp, [::]:8096->80/tcp, 0.0.0.0:36831->6443/tcp   k3d-team6-serverlb
+c724b323d74c   rancher/k3s:v1.35.5-k3s1         "/bin/k3d-entrypoint…"   4weeks ago   Up 8 days                k3d-team6-agent-1
+3682956ab0f6   rancher/k3s:v1.35.5-k3s1         "/bin/k3d-entrypoint…"   4 weeks ago   Up 8 days                                                                      k3d-team6-agent-0
+37d217e75445   rancher/k3s:v1.35.5-k3s1         "/bin/k3d-entrypoint…"   4 weeks ago   Up 8 days                                                                      k3d-team6-server-0
