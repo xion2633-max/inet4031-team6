@@ -98,11 +98,13 @@ Shared VM: Apply your Kubernetes manifests after completing the required pull re
 
 4. Verify Deployments
 
-```kubectl get deployments
+```
+kubectl get deployments
 kubectl get pods
 kubectl get hpa
 kubectl get pdb
-kubectl get networkpolicy```
+kubectl get networkpolicy
+```
 
 5. Run Load Tests
 
@@ -145,5 +147,3 @@ capstone/networking-cloud/TOOL-VERSIONS.txt – Installed tool versions.
 capstone/networking-cloud/REBUILD-GAPS.md – Fresh VM rebuild issues.
 
 Important: Shared VM students must not run OpenTofu commands. Local VM students must deploy permanent infrastructure changes through OpenTofu and the Deploy gate.
-
-
