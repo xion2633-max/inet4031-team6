@@ -65,3 +65,80 @@ document as each week's wiki directions require.
 1. Check the troubleshooting notes in the wiki.
 2. Consult with your team's System Admin and QA roles.
 3. Contact the course instructor if blocked.
+
+## How to run this
+
+How to Run This Project
+1. Clone the Repository
+```
+git clone [<YOUR_REPOSITORY_URL>](https://github.com/xion2633-max/inet4031-team6.git)
+cd inet4031-team6
+```
+
+2. Verify the Environment
+```
+export N=6
+k3d cluster list
+kubectl get nodes -o wide
+kubectl get deploy,svc,pods -n default
+kubectl get networkpolicy -n default
+kubectl get pods -n monitoring
+kubectl top nodes
+```
+
+Check application health:
+
+```curl -i http://localhost:$((8090 + N))/health```
+
+3. Deploy Changes
+
+Shared VM: Apply your Kubernetes manifests after completing the required pull request workflow.
+
+```kubectl apply -f <PATH_TO_MANIFESTS>```
+
+4. Verify Deployments
+
+```
+kubectl get deployments
+kubectl get pods
+kubectl get hpa
+kubectl get pdb
+kubectl get networkpolicy
+```
+
+5. Run Load Tests
+
+Run the autoscaling test:
+
+```k6 run capstone/networking-cloud/k6/<AUTOSCALING_SCRIPT>.js```
+
+Monitor autoscaling:
+
+```kubectl get hpa -w```
+
+
+Run the failure drill using the appropriate Shared VM or Local VM procedure documented in capstone/networking-cloud/RUNBOOK.md.
+
+6. Verify Application Health
+
+Confirm the application responds successfully:
+
+```curl -i <YOUR_APPLICATION_HEALTH_URL>```
+
+Expected HTTP response:
+200 OK
+
+7. Save Evidence
+
+Save test results, HPA history, failure drill timestamps, and memory calculations in:
+
+capstone/networking-cloud/evidence/
+
+8. Documentation
+
+Refer to the following files for additional information:
+
+capstone/networking-cloud/RUNBOOK.md – Deployment, testing, and recovery instructions.
+capstone/networking-cloud/ARCHITECTURE.md – Application networking and architecture.
+capstone/networking-cloud/TOOL-VERSIONS.txt – Installed tool versions.
+capstone/networking-cloud/REBUILD-GAPS.md – Fresh VM rebuild issues.
