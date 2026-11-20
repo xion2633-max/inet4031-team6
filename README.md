@@ -126,15 +126,12 @@ Confirm the application responds successfully:
 ```curl -i <YOUR_APPLICATION_HEALTH_URL>```
 
 Expected HTTP response:
-
-text
 200 OK
 
 7. Save Evidence
 
 Save test results, HPA history, failure drill timestamps, and memory calculations in:
 
-text
 capstone/networking-cloud/evidence/
 
 8. Documentation
@@ -145,5 +142,3 @@ capstone/networking-cloud/RUNBOOK.md – Deployment, testing, and recovery instr
 capstone/networking-cloud/ARCHITECTURE.md – Application networking and architecture.
 capstone/networking-cloud/TOOL-VERSIONS.txt – Installed tool versions.
 capstone/networking-cloud/REBUILD-GAPS.md – Fresh VM rebuild issues.
-
-Important: Shared VM students must not run OpenTofu commands. Local VM students must deploy permanent infrastructure changes through OpenTofu and the Deploy gate.
