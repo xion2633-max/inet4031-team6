@@ -117,3 +117,29 @@ Week 9 baseline for reference: about 4.77 requests/sec, P50 46.48 ms, P95 62.24 
 - No `sudo` on the Shared VM.
 - Node drills: only stop our own containers (`k3d-team6-agent-*`), never the server node or load balancer, and always `docker start` them again.
 - Debug pods need a memory limit of 64Mi or less and must be deleted afterward.
+
+
+## Criterion 2: Node Failure Drill (not run yet)
+
+Run only after nginx has 2+ pods on different nodes and readiness probes are in place. Tell the team before starting, since it stops one of our nodes.
+
+Terminal 1 (start traffic first):
+
+    k6 run --no-color capstone/networking-cloud/k6/drill.js | tee capstone/networking-cloud/evidence/drill-k6.txt
+
+Terminal 2 (watch pods):
+
+    kubectl get pods -o wide -w | tee capstone/networking-cloud/evidence/drill-pods.txt
+
+Terminal 3 (about 30 seconds after k6 starts):
+
+    docker ps --filter name=k3d-team6-
+    echo "STOP: $(date)" | tee capstone/networking-cloud/evidence/drill-times.txt
+    docker stop k3d-team6-agent-0
+    # wait at least 3 minutes
+    echo "START: $(date)" | tee -a capstone/networking-cloud/evidence/drill-times.txt
+    docker start k3d-team6-agent-0
+    kubectl get nodes
+
+Rules: only stop k3d-team6-agent-0 or k3d-team6-agent-1. Never stop the server node or the load balancer. Always start the node again.
+Pass: k6 summary shows http_req_failed under 1%.
