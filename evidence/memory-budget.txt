@@ -1,0 +1,157 @@
+Name:                   db
+Namespace:              default
+CreationTimestamp:      Thu, 15 Oct 2026 20:36:54 -0500
+Labels:                 app=db
+Annotations:            deployment.kubernetes.io/revision: 2
+                        kompose.cmd: kompose convert -f ../week-2/docker-compose.yml
+                        kompose.version: 1.38.0 (a8f5d1cbd)
+Selector:               app=db
+Replicas:               1 desired | 1 updated | 1 total | 1 available | 0 unavailable
+StrategyType:           RollingUpdate
+MinReadySeconds:        0
+RollingUpdateStrategy:  0 max unavailable, 1 max surge
+Pod Template:
+  Labels:       app=db
+  Annotations:  kompose.cmd: kompose convert -f ../week-2/docker-compose.yml
+                kompose.version: 1.38.0 (a8f5d1cbd)
+  Containers:
+   db:
+    Image:      postgres:15-alpine
+    Port:       5432/TCP
+    Host Port:  0/TCP
+    Args:
+      -c
+      shared_preload_libraries=pg_stat_statements
+    Liveness:  exec [pg_isready -U appuser] delay=0s timeout=5s period=10s #success=1 #failure=5
+    Environment Variables from:
+      db-credentials  Secret  Optional: false
+    Environment:      <none>
+    Mounts:
+      /var/lib/postgresql/data from db-data (rw)
+  Volumes:
+   db-data:
+    Type:          PersistentVolumeClaim (a reference to a PersistentVolumeClaim in the same namespace)
+    ClaimName:     db-data
+    ReadOnly:      false
+  Node-Selectors:  <none>
+  Tolerations:     <none>
+Conditions:
+  Type           Status  Reason
+  ----           ------  ------
+  Progressing    True    NewReplicaSetAvailable
+  Available      True    MinimumReplicasAvailable
+OldReplicaSets:  db-959c89db4 (0/0 replicas created)
+NewReplicaSet:   db-78bcbc9bd4 (1/1 replicas created)
+Events:          <none>
+
+
+Name:                   flask
+Namespace:              default
+CreationTimestamp:      Thu, 22 Oct 2026 20:44:40 -0500
+Labels:                 app=flask
+Annotations:            deployment.kubernetes.io/revision: 10
+                        kompose.cmd: kompose convert -f ../week-2/docker-compose.yml
+                        kompose.version: 1.38.0 (a8f5d1cbd)
+Selector:               app=flask
+Replicas:               2 desired | 2 updated | 2 total | 2 available | 0 unavailable
+StrategyType:           RollingUpdate
+MinReadySeconds:        0
+RollingUpdateStrategy:  25% max unavailable, 25% max surge
+Pod Template:
+  Labels:           app=flask
+  Annotations:      kompose.cmd: kompose convert -f ../week-2/docker-compose.yml
+                    kompose.version: 1.38.0 (a8f5d1cbd)
+                    kubectl.kubernetes.io/restartedAt: 2026-10-29T19:03:15-05:00
+  Service Account:  flask-app
+  Containers:
+   flask:
+    Image:      week-2-flask:latest
+    Port:       5000/TCP
+    Host Port:  0/TCP
+    Limits:
+      cpu:     500m
+      memory:  256Mi
+    Requests:
+      cpu:     100m
+      memory:  128Mi
+    Liveness:  exec [curl -f http://localhost:5000/health] delay=0s timeout=5s period=10s #success=1 #failure=3
+    Environment Variables from:
+      flask-credentials  Secret  Optional: false
+    Environment:         <none>
+    Mounts:              <none>
+  Volumes:               <none>
+  Node-Selectors:        <none>
+  Tolerations:           <none>
+Conditions:
+  Type           Status  Reason
+  ----           ------  ------
+  Progressing    True    NewReplicaSetAvailable
+  Available      True    MinimumReplicasAvailable
+OldReplicaSets:  flask-57ccb8c7cd (0/0 replicas created), flask-6b96b45cbb (0/0 replicas created), flask-5968f9f689 (0/0 replicas created), flask-7cb69d77d5 (0/0 replicas created), flask-57c94455cf (0/0 replicas created), flask-7958b945dc (0/0 replicas created), flask-5fff754947 (0/0 replicas created), flask-7c49d754f (0/0 replicas created)
+NewReplicaSet:   flask-568ccc9777 (2/2 replicas created)
+Events:          <none>
+
+
+Name:               nginx
+Namespace:          default
+CreationTimestamp:  Thu, 15 Oct 2026 20:36:54 -0500
+Labels:             app=nginx
+Annotations:        deployment.kubernetes.io/revision: 1
+                    kompose.cmd: kompose convert -f ../week-2/docker-compose.yml
+                    kompose.version: 1.38.0 (a8f5d1cbd)
+Selector:           app=nginx
+Replicas:           1 desired | 1 updated | 1 total | 1 available | 0 unavailable
+StrategyType:       Recreate
+MinReadySeconds:    0
+Pod Template:
+  Labels:       app=nginx
+  Annotations:  kompose.cmd: kompose convert -f ../week-2/docker-compose.yml
+                kompose.version: 1.38.0 (a8f5d1cbd)
+  Containers:
+   nginx:
+    Image:        nginx:alpine
+    Port:         80/TCP
+    Host Port:    0/TCP
+    Environment:  <none>
+    Mounts:
+      /etc/nginx/conf.d/default.conf from nginx-cm0 (ro,path="default.conf")
+  Volumes:
+   nginx-cm0:
+    Type:          ConfigMap (a volume populated by a ConfigMap)
+    Name:          nginx-cm0
+    Optional:      false
+  Node-Selectors:  <none>
+  Tolerations:     <none>
+Conditions:
+  Type           Status  Reason
+  ----           ------  ------
+  Progressing    True    NewReplicaSetAvailable
+  Available      True    MinimumReplicasAvailable
+OldReplicaSets:  <none>
+NewReplicaSet:   nginx-6745b77df6 (1/1 replicas created)
+Events:          <none>
+
+Memory Budget - Issue #53
+
+Flask:
+Replicas: 2
+Total memory requests: 2 x 128Mi = 256Mi
+Total memory limits: 2 x 256Mi = 512Mi
+
+Nginx:
+Replicas: 1
+No explicit memory request or limit.
+
+Database:
+Replicas: 1
+No explicit memory request or limit.
+
+Total configured memory requests: 256Mi
+Total configured memory limits: 512Mi
+
+Each Kubernetes node reports approximately
+31.1 GiB of allocatable memory.
+
+A complete application memory budget cannot
+be established until Nginx and the database
+have explicit memory limits.
