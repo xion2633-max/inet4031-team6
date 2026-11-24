@@ -1,0 +1,1294 @@
+Tue Nov 24 14:41:40 CST 2026
+Tue Nov 24 14:41:55 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 2%/50%   1         5         2          55s
+Tue Nov 24 14:41:57 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 2%/50%   1         5         2          57s
+Tue Nov 24 14:41:59 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 2%/50%   1         5         2          59s
+Tue Nov 24 14:42:01 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          62s
+Tue Nov 24 14:42:04 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          64s
+Tue Nov 24 14:42:06 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          66s
+Tue Nov 24 14:42:08 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          68s
+Tue Nov 24 14:42:10 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          71s
+Tue Nov 24 14:42:13 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          73s
+Tue Nov 24 14:42:15 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          76s
+Tue Nov 24 14:42:18 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          78s
+Tue Nov 24 14:42:20 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          80s
+Tue Nov 24 14:42:22 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          82s
+Tue Nov 24 14:42:24 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          85s
+Tue Nov 24 14:42:27 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          87s
+Tue Nov 24 14:42:29 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          89s
+Tue Nov 24 14:42:31 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          91s
+Tue Nov 24 14:42:33 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          93s
+Tue Nov 24 14:42:35 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          95s
+Tue Nov 24 14:42:37 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          97s
+Tue Nov 24 14:42:39 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          99s
+Tue Nov 24 14:42:41 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          102s
+Tue Nov 24 14:42:44 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          104s
+Tue Nov 24 14:42:46 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          106s
+Tue Nov 24 14:42:48 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          108s
+Tue Nov 24 14:42:50 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          110s
+Tue Nov 24 14:42:52 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          112s
+Tue Nov 24 14:42:54 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          114s
+Tue Nov 24 14:42:56 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          117s
+Tue Nov 24 14:42:59 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          119s
+Tue Nov 24 14:43:01 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 2%/50%   1         5         2          2m1s
+Tue Nov 24 14:43:03 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 2%/50%   1         5         2          2m3s
+Tue Nov 24 14:43:05 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 2%/50%   1         5         2          2m5s
+Tue Nov 24 14:43:07 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 2%/50%   1         5         2          2m7s
+Tue Nov 24 14:43:09 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 2%/50%   1         5         2          2m9s
+Tue Nov 24 14:43:11 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 2%/50%   1         5         2          2m12s
+Tue Nov 24 14:43:14 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 2%/50%   1         5         2          2m14s
+Tue Nov 24 14:43:16 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          2m16s
+Tue Nov 24 14:43:18 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          2m18s
+Tue Nov 24 14:43:20 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          2m20s
+Tue Nov 24 14:43:22 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          2m23s
+Tue Nov 24 14:43:25 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          2m25s
+Tue Nov 24 14:43:27 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          2m27s
+Tue Nov 24 14:43:29 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          2m29s
+Tue Nov 24 14:43:31 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          2m31s
+Tue Nov 24 14:43:33 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          2m34s
+Tue Nov 24 14:43:36 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          2m36s
+Tue Nov 24 14:43:38 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          2m38s
+Tue Nov 24 14:43:40 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          2m40s
+Tue Nov 24 14:43:42 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          2m43s
+Tue Nov 24 14:43:45 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          2m45s
+Tue Nov 24 14:43:47 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          2m47s
+Tue Nov 24 14:43:49 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          2m49s
+Tue Nov 24 14:43:51 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          2m51s
+Tue Nov 24 14:43:53 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          2m53s
+Tue Nov 24 14:43:55 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          2m55s
+Tue Nov 24 14:43:57 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          2m58s
+Tue Nov 24 14:44:00 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          3m
+Tue Nov 24 14:44:02 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 2%/50%   1         5         2          3m2s
+Tue Nov 24 14:44:04 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 2%/50%   1         5         2          3m4s
+Tue Nov 24 14:44:06 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 2%/50%   1         5         2          3m6s
+Tue Nov 24 14:44:08 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 2%/50%   1         5         2          3m8s
+Tue Nov 24 14:44:10 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 2%/50%   1         5         2          3m10s
+Tue Nov 24 14:44:12 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 2%/50%   1         5         2          3m12s
+Tue Nov 24 14:44:14 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 2%/50%   1         5         2          3m15s
+Tue Nov 24 14:44:17 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          3m17s
+Tue Nov 24 14:44:19 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          3m19s
+Tue Nov 24 14:44:21 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          3m21s
+Tue Nov 24 14:44:23 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          3m24s
+Tue Nov 24 14:44:26 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          3m26s
+Tue Nov 24 14:44:28 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          3m29s
+Tue Nov 24 14:44:31 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          3m31s
+Tue Nov 24 14:44:33 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          3m34s
+Tue Nov 24 14:44:36 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          3m36s
+Tue Nov 24 14:44:38 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          3m38s
+Tue Nov 24 14:44:40 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          3m40s
+Tue Nov 24 14:44:42 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          3m42s
+Tue Nov 24 14:44:44 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          3m44s
+Tue Nov 24 14:44:46 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          3m46s
+Tue Nov 24 14:44:48 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          3m49s
+Tue Nov 24 14:44:51 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          3m51s
+Tue Nov 24 14:44:53 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          3m53s
+Tue Nov 24 14:44:55 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          3m55s
+Tue Nov 24 14:44:57 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          3m57s
+Tue Nov 24 14:44:59 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          4m
+Tue Nov 24 14:45:02 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          4m2s
+Tue Nov 24 14:45:04 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          4m4s
+Tue Nov 24 14:45:06 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          4m6s
+Tue Nov 24 14:45:08 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          4m8s
+Tue Nov 24 14:45:10 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          4m10s
+Tue Nov 24 14:45:12 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          4m12s
+Tue Nov 24 14:45:14 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          4m15s
+Tue Nov 24 14:45:17 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 5%/50%   1         5         2          4m17s
+Tue Nov 24 14:45:19 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 5%/50%   1         5         2          4m20s
+Tue Nov 24 14:45:22 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 5%/50%   1         5         2          4m22s
+Tue Nov 24 14:45:24 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 5%/50%   1         5         2          4m24s
+Tue Nov 24 14:45:26 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 5%/50%   1         5         2          4m26s
+Tue Nov 24 14:45:28 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 5%/50%   1         5         2          4m28s
+Tue Nov 24 14:45:30 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          4m31s
+Tue Nov 24 14:45:33 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          4m33s
+Tue Nov 24 14:45:35 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          4m35s
+Tue Nov 24 14:45:37 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          4m37s
+Tue Nov 24 14:45:39 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          4m39s
+Tue Nov 24 14:45:41 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          4m41s
+Tue Nov 24 14:45:43 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          4m43s
+Tue Nov 24 14:45:45 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          4m46s
+Tue Nov 24 14:45:48 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          4m48s
+Tue Nov 24 14:45:50 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          4m50s
+Tue Nov 24 14:45:52 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          4m52s
+Tue Nov 24 14:45:54 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          4m54s
+Tue Nov 24 14:45:56 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          4m57s
+Tue Nov 24 14:45:59 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          4m59s
+Tue Nov 24 14:46:01 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          5m1s
+Tue Nov 24 14:46:03 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          5m3s
+Tue Nov 24 14:46:05 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          5m6s
+Tue Nov 24 14:46:08 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          5m8s
+Tue Nov 24 14:46:10 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          5m10s
+Tue Nov 24 14:46:12 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          5m12s
+Tue Nov 24 14:46:14 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          5m14s
+Tue Nov 24 14:46:16 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          5m17s
+Tue Nov 24 14:46:19 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          5m19s
+Tue Nov 24 14:46:21 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          5m21s
+Tue Nov 24 14:46:23 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          5m23s
+Tue Nov 24 14:46:25 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          5m26s
+Tue Nov 24 14:46:28 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          5m28s
+Tue Nov 24 14:46:30 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 2%/50%   1         5         1          5m30s
+Tue Nov 24 14:46:32 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 2%/50%   1         5         1          5m32s
+Tue Nov 24 14:46:34 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 2%/50%   1         5         1          5m34s
+Tue Nov 24 14:46:36 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 2%/50%   1         5         1          5m37s
+Tue Nov 24 14:46:39 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 2%/50%   1         5         1          5m39s
+Tue Nov 24 14:46:41 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 2%/50%   1         5         1          5m41s
+Tue Nov 24 14:46:43 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 2%/50%   1         5         1          5m43s
+Tue Nov 24 14:46:45 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 2%/50%   1         5         1          5m45s
+Tue Nov 24 14:46:47 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          5m47s
+Tue Nov 24 14:46:49 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          5m49s
+Tue Nov 24 14:46:51 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          5m51s
+Tue Nov 24 14:46:53 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          5m54s
+Tue Nov 24 14:46:56 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          5m56s
+Tue Nov 24 14:46:58 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          5m58s
+Tue Nov 24 14:47:00 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          6m
+Tue Nov 24 14:47:02 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          6m2s
+Tue Nov 24 14:47:04 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          6m4s
+Tue Nov 24 14:47:06 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          6m7s
+Tue Nov 24 14:47:09 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          6m9s
+Tue Nov 24 14:47:11 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          6m11s
+Tue Nov 24 14:47:13 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          6m13s
+Tue Nov 24 14:47:15 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          6m15s
+Tue Nov 24 14:47:17 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          6m18s
+Tue Nov 24 14:47:20 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          6m20s
+Tue Nov 24 14:47:22 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          6m22s
+Tue Nov 24 14:47:24 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          6m24s
+Tue Nov 24 14:47:26 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          6m26s
+Tue Nov 24 14:47:28 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          6m28s
+Tue Nov 24 14:47:30 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         1          6m31s
+Tue Nov 24 14:47:33 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         1          6m33s
+Tue Nov 24 14:47:35 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         1          6m35s
+Tue Nov 24 14:47:37 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         1          6m37s
+Tue Nov 24 14:47:39 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         1          6m39s
+Tue Nov 24 14:47:41 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         1          6m42s
+Tue Nov 24 14:47:44 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         1          6m44s
+Tue Nov 24 14:47:46 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         1          6m46s
+Tue Nov 24 14:47:48 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         1          6m48s
+Tue Nov 24 14:47:50 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         1          6m50s
+Tue Nov 24 14:47:52 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         1          6m53s
+Tue Nov 24 14:47:55 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         1          6m55s
+Tue Nov 24 14:47:57 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         1          6m57s
+Tue Nov 24 14:47:59 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         1          6m59s
+Tue Nov 24 14:48:01 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 5%/50%   1         5         1          7m1s
+Tue Nov 24 14:48:03 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 5%/50%   1         5         1          7m3s
+Tue Nov 24 14:48:05 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 5%/50%   1         5         1          7m5s
+Tue Nov 24 14:48:07 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 5%/50%   1         5         1          7m8s
+Tue Nov 24 14:48:10 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 5%/50%   1         5         1          7m10s
+Tue Nov 24 14:48:12 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 5%/50%   1         5         1          7m12s
+Tue Nov 24 14:48:14 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 5%/50%   1         5         1          7m14s
+Tue Nov 24 14:48:16 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         1          7m16s
+Tue Nov 24 14:48:18 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         1          7m18s
+Tue Nov 24 14:48:20 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         1          7m20s
+Tue Nov 24 14:48:22 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         1          7m23s
+Tue Nov 24 14:48:25 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         1          7m25s
+Tue Nov 24 14:48:27 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         1          7m27s
+Tue Nov 24 14:48:29 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         1          7m29s
+Tue Nov 24 14:48:31 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         1          7m31s
+Tue Nov 24 14:48:33 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         1          7m33s
+Tue Nov 24 14:48:36 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         1          7m36s
+Tue Nov 24 14:48:38 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         1          7m38s
+Tue Nov 24 14:48:40 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         1          7m40s
+Tue Nov 24 14:48:42 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         1          7m42s
+Tue Nov 24 14:48:44 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         1          7m44s
+Tue Nov 24 14:48:46 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          7m47s
+Tue Nov 24 14:48:49 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          7m49s
+Tue Nov 24 14:48:51 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          7m51s
+Tue Nov 24 14:48:53 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          7m53s
+Tue Nov 24 14:48:55 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          7m55s
+Tue Nov 24 14:48:57 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          7m57s
+Tue Nov 24 14:48:59 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          8m
+Tue Nov 24 14:49:02 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          8m2s
+Tue Nov 24 14:49:04 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          8m4s
+Tue Nov 24 14:49:06 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          8m6s
+Tue Nov 24 14:49:08 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          8m8s
+Tue Nov 24 14:49:10 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          8m11s
+Tue Nov 24 14:49:13 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          8m13s
+Tue Nov 24 14:49:15 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         1          8m15s
+Tue Nov 24 14:49:17 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 11%/50%   1         5         1          8m17s
+Tue Nov 24 14:49:19 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 11%/50%   1         5         1          8m20s
+Tue Nov 24 14:49:22 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 11%/50%   1         5         1          8m22s
+Tue Nov 24 14:49:24 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 11%/50%   1         5         1          8m24s
+Tue Nov 24 14:49:26 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 11%/50%   1         5         1          8m26s
+Tue Nov 24 14:49:28 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 11%/50%   1         5         1          8m29s
+Tue Nov 24 14:49:31 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 11%/50%   1         5         1          8m31s
+Tue Nov 24 14:49:33 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 11%/50%   1         5         1          8m33s
+Tue Nov 24 14:49:35 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 11%/50%   1         5         1          8m35s
+Tue Nov 24 14:49:37 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 11%/50%   1         5         1          8m37s
+Tue Nov 24 14:49:39 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 11%/50%   1         5         1          8m40s
+Tue Nov 24 14:49:42 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 11%/50%   1         5         1          8m42s
+Tue Nov 24 14:49:44 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 11%/50%   1         5         1          8m44s
+Tue Nov 24 14:49:46 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 30%/50%   1         5         1          8m46s
+Tue Nov 24 14:49:48 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 30%/50%   1         5         1          8m48s
+Tue Nov 24 14:49:50 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 30%/50%   1         5         1          8m50s
+Tue Nov 24 14:49:52 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 30%/50%   1         5         1          8m52s
+Tue Nov 24 14:49:54 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 30%/50%   1         5         1          8m55s
+Tue Nov 24 14:49:57 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 30%/50%   1         5         1          8m57s
+Tue Nov 24 14:49:59 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 30%/50%   1         5         1          8m59s
+Tue Nov 24 14:50:01 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 44%/50%   1         5         1          9m1s
+Tue Nov 24 14:50:03 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 44%/50%   1         5         1          9m3s
+Tue Nov 24 14:50:05 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 44%/50%   1         5         1          9m5s
+Tue Nov 24 14:50:07 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 44%/50%   1         5         1          9m7s
+Tue Nov 24 14:50:09 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 44%/50%   1         5         1          9m9s
+Tue Nov 24 14:50:11 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 44%/50%   1         5         1          9m12s
+Tue Nov 24 14:50:14 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 44%/50%   1         5         1          9m14s
+Tue Nov 24 14:50:16 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 58%/50%   1         5         1          9m16s
+Tue Nov 24 14:50:18 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 58%/50%   1         5         1          9m18s
+Tue Nov 24 14:50:21 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 58%/50%   1         5         1          9m21s
+Tue Nov 24 14:50:23 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 58%/50%   1         5         1          9m23s
+Tue Nov 24 14:50:25 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 58%/50%   1         5         1          9m25s
+Tue Nov 24 14:50:27 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 58%/50%   1         5         1          9m27s
+Tue Nov 24 14:50:29 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 58%/50%   1         5         1          9m29s
+Tue Nov 24 14:50:31 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 69%/50%   1         5         2          9m31s
+Tue Nov 24 14:50:33 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 69%/50%   1         5         2          9m34s
+Tue Nov 24 14:50:36 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 69%/50%   1         5         2          9m36s
+Tue Nov 24 14:50:38 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 69%/50%   1         5         2          9m38s
+Tue Nov 24 14:50:40 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 69%/50%   1         5         2          9m40s
+Tue Nov 24 14:50:42 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 69%/50%   1         5         2          9m42s
+Tue Nov 24 14:50:44 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 69%/50%   1         5         2          9m44s
+Tue Nov 24 14:50:46 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 50%/50%   1         5         2          9m46s
+Tue Nov 24 14:50:48 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 50%/50%   1         5         2          9m49s
+Tue Nov 24 14:50:51 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 50%/50%   1         5         2          9m51s
+Tue Nov 24 14:50:53 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 50%/50%   1         5         2          9m53s
+Tue Nov 24 14:50:55 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 50%/50%   1         5         2          9m55s
+Tue Nov 24 14:53:50 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          12m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          3m34s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+Tue Nov 24 14:53:52 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          12m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          3m37s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+Tue Nov 24 14:53:55 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          12m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          3m39s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+Tue Nov 24 14:53:57 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          12m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          3m42s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+Tue Nov 24 14:54:00 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 4%/50%   1         5         2          13m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          3m44s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+Tue Nov 24 14:54:02 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 5%/50%   1         5         2          13m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          3m46s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+Tue Nov 24 14:54:04 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 5%/50%   1         5         2          13m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          3m48s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+Tue Nov 24 14:54:06 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 5%/50%   1         5         2          13m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          3m51s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+Tue Nov 24 14:54:09 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 5%/50%   1         5         2          13m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          3m53s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+Tue Nov 24 14:54:12 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 5%/50%   1         5         2          13m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          3m56s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+Tue Nov 24 14:54:14 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 5%/50%   1         5         2          13m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          3m58s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+Tue Nov 24 14:54:16 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 5%/50%   1         5         2          13m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          4m
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+Tue Nov 24 14:54:18 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          13m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          4m3s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+Tue Nov 24 14:54:21 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          13m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          4m5s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+Tue Nov 24 14:54:23 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          13m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          4m7s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+Tue Nov 24 14:54:25 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          13m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          4m10s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+Tue Nov 24 14:54:28 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          13m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          4m12s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+Tue Nov 24 14:54:30 CST 2026
+NAME    REFERENCE          TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 3%/50%   1         5         2          13m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          4m15s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+Tue Nov 24 14:54:33 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 48%/50%   1         5         2          13m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          4m17s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+Tue Nov 24 14:54:35 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 48%/50%   1         5         2          13m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          4m19s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+Tue Nov 24 14:54:37 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 48%/50%   1         5         2          13m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          4m21s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+Tue Nov 24 14:54:39 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 48%/50%   1         5         2          13m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          4m23s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+Tue Nov 24 14:54:41 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 48%/50%   1         5         2          13m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          4m26s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+Tue Nov 24 14:54:44 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 48%/50%   1         5         2          13m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          4m28s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+Tue Nov 24 14:54:46 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 48%/50%   1         5         2          13m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          4m30s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+Tue Nov 24 14:54:48 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 157%/50%   1         5         2          13m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          4m33s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          2s
+flask-568ccc9777-zsv6l   1/1     Running   0          2s
+Tue Nov 24 14:54:51 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 157%/50%   1         5         2          13m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          4m36s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          5s
+flask-568ccc9777-zsv6l   1/1     Running   0          5s
+Tue Nov 24 14:54:54 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 157%/50%   1         5         2          13m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          4m38s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          7s
+flask-568ccc9777-zsv6l   1/1     Running   0          7s
+Tue Nov 24 14:54:56 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 157%/50%   1         5         2          13m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          4m40s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          9s
+flask-568ccc9777-zsv6l   1/1     Running   0          9s
+Tue Nov 24 14:54:58 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 157%/50%   1         5         2          13m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          4m42s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          11s
+flask-568ccc9777-zsv6l   1/1     Running   0          11s
+Tue Nov 24 14:55:00 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 157%/50%   1         5         2          14m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          4m45s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          14s
+flask-568ccc9777-zsv6l   1/1     Running   0          14s
+Tue Nov 24 14:55:03 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 279%/50%   1         5         4          14m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          4m47s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          16s
+flask-568ccc9777-tqw7q   1/1     Running   0          2s
+flask-568ccc9777-zsv6l   1/1     Running   0          16s
+Tue Nov 24 14:55:05 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 279%/50%   1         5         4          14m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          4m49s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          18s
+flask-568ccc9777-tqw7q   1/1     Running   0          4s
+flask-568ccc9777-zsv6l   1/1     Running   0          18s
+Tue Nov 24 14:55:07 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 279%/50%   1         5         4          14m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          4m52s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          21s
+flask-568ccc9777-tqw7q   1/1     Running   0          7s
+flask-568ccc9777-zsv6l   1/1     Running   0          21s
+Tue Nov 24 14:55:10 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 279%/50%   1         5         4          14m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          4m54s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          23s
+flask-568ccc9777-tqw7q   1/1     Running   0          9s
+flask-568ccc9777-zsv6l   1/1     Running   0          23s
+Tue Nov 24 14:55:12 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 279%/50%   1         5         4          14m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          4m56s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          25s
+flask-568ccc9777-tqw7q   1/1     Running   0          11s
+flask-568ccc9777-zsv6l   1/1     Running   0          25s
+Tue Nov 24 14:55:14 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 279%/50%   1         5         4          14m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          4m59s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          28s
+flask-568ccc9777-tqw7q   1/1     Running   0          14s
+flask-568ccc9777-zsv6l   1/1     Running   0          28s
+Tue Nov 24 14:55:17 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 248%/50%   1         5         5          14m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          5m1s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          30s
+flask-568ccc9777-tqw7q   1/1     Running   0          16s
+flask-568ccc9777-zsv6l   1/1     Running   0          30s
+Tue Nov 24 14:55:19 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 248%/50%   1         5         5          14m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          5m3s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          32s
+flask-568ccc9777-tqw7q   1/1     Running   0          18s
+flask-568ccc9777-zsv6l   1/1     Running   0          32s
+Tue Nov 24 14:55:21 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 248%/50%   1         5         5          14m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          5m6s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          35s
+flask-568ccc9777-tqw7q   1/1     Running   0          21s
+flask-568ccc9777-zsv6l   1/1     Running   0          35s
+Tue Nov 24 14:55:24 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 248%/50%   1         5         5          14m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          5m8s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          37s
+flask-568ccc9777-tqw7q   1/1     Running   0          23s
+flask-568ccc9777-zsv6l   1/1     Running   0          37s
+Tue Nov 24 14:55:26 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 248%/50%   1         5         5          14m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          5m10s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          39s
+flask-568ccc9777-tqw7q   1/1     Running   0          25s
+flask-568ccc9777-zsv6l   1/1     Running   0          39s
+Tue Nov 24 14:55:28 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 248%/50%   1         5         5          14m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          5m12s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          41s
+flask-568ccc9777-tqw7q   1/1     Running   0          27s
+flask-568ccc9777-zsv6l   1/1     Running   0          41s
+Tue Nov 24 14:55:30 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 248%/50%   1         5         5          14m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          5m15s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          44s
+flask-568ccc9777-tqw7q   1/1     Running   0          30s
+flask-568ccc9777-zsv6l   1/1     Running   0          44s
+Tue Nov 24 14:55:33 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 188%/50%   1         5         5          14m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          5m17s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          46s
+flask-568ccc9777-tqw7q   1/1     Running   0          32s
+flask-568ccc9777-zsv6l   1/1     Running   0          46s
+Tue Nov 24 14:55:35 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 188%/50%   1         5         5          14m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          5m20s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          49s
+flask-568ccc9777-tqw7q   1/1     Running   0          35s
+flask-568ccc9777-zsv6l   1/1     Running   0          49s
+Tue Nov 24 14:55:38 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 188%/50%   1         5         5          14m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          5m22s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          51s
+flask-568ccc9777-tqw7q   1/1     Running   0          37s
+flask-568ccc9777-zsv6l   1/1     Running   0          51s
+Tue Nov 24 14:55:40 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 188%/50%   1         5         5          14m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          5m25s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          54s
+flask-568ccc9777-tqw7q   1/1     Running   0          40s
+flask-568ccc9777-zsv6l   1/1     Running   0          54s
+Tue Nov 24 14:55:43 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 188%/50%   1         5         5          14m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          5m27s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          56s
+flask-568ccc9777-tqw7q   1/1     Running   0          42s
+flask-568ccc9777-zsv6l   1/1     Running   0          56s
+Tue Nov 24 14:55:45 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 188%/50%   1         5         5          14m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          5m29s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          58s
+flask-568ccc9777-tqw7q   1/1     Running   0          44s
+flask-568ccc9777-zsv6l   1/1     Running   0          58s
+Tue Nov 24 14:55:48 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 214%/50%   1         5         5          14m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          5m32s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          61s
+flask-568ccc9777-tqw7q   1/1     Running   0          47s
+flask-568ccc9777-zsv6l   1/1     Running   0          61s
+Tue Nov 24 14:55:50 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 214%/50%   1         5         5          14m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          5m34s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          63s
+flask-568ccc9777-tqw7q   1/1     Running   0          49s
+flask-568ccc9777-zsv6l   1/1     Running   0          63s
+Tue Nov 24 14:55:52 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 214%/50%   1         5         5          14m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          5m37s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          66s
+flask-568ccc9777-tqw7q   1/1     Running   0          52s
+flask-568ccc9777-zsv6l   1/1     Running   0          66s
+Tue Nov 24 14:55:55 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 214%/50%   1         5         5          14m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          5m39s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          68s
+flask-568ccc9777-tqw7q   1/1     Running   0          54s
+flask-568ccc9777-zsv6l   1/1     Running   0          68s
+Tue Nov 24 14:55:57 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 214%/50%   1         5         5          14m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          5m41s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          70s
+flask-568ccc9777-tqw7q   1/1     Running   0          56s
+flask-568ccc9777-zsv6l   1/1     Running   0          70s
+Tue Nov 24 14:55:59 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 214%/50%   1         5         5          14m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          5m43s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          72s
+flask-568ccc9777-tqw7q   1/1     Running   0          58s
+flask-568ccc9777-zsv6l   1/1     Running   0          72s
+Tue Nov 24 14:56:01 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 200%/50%   1         5         5          15m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          5m46s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          75s
+flask-568ccc9777-tqw7q   1/1     Running   0          61s
+flask-568ccc9777-zsv6l   1/1     Running   0          75s
+Tue Nov 24 14:56:04 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 200%/50%   1         5         5          15m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          5m48s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          77s
+flask-568ccc9777-tqw7q   1/1     Running   0          63s
+flask-568ccc9777-zsv6l   1/1     Running   0          77s
+Tue Nov 24 14:56:06 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 200%/50%   1         5         5          15m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          5m50s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          79s
+flask-568ccc9777-tqw7q   1/1     Running   0          65s
+flask-568ccc9777-zsv6l   1/1     Running   0          79s
+Tue Nov 24 14:56:08 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 200%/50%   1         5         5          15m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          5m53s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          82s
+flask-568ccc9777-tqw7q   1/1     Running   0          68s
+flask-568ccc9777-zsv6l   1/1     Running   0          82s
+Tue Nov 24 14:56:11 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 200%/50%   1         5         5          15m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          5m55s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          84s
+flask-568ccc9777-tqw7q   1/1     Running   0          70s
+flask-568ccc9777-zsv6l   1/1     Running   0          84s
+Tue Nov 24 14:56:13 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 200%/50%   1         5         5          15m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          5m57s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          86s
+flask-568ccc9777-tqw7q   1/1     Running   0          72s
+flask-568ccc9777-zsv6l   1/1     Running   0          86s
+Tue Nov 24 14:56:15 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 200%/50%   1         5         5          15m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          5m59s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          88s
+flask-568ccc9777-tqw7q   1/1     Running   0          74s
+flask-568ccc9777-zsv6l   1/1     Running   0          88s
+Tue Nov 24 14:56:17 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 138%/50%   1         5         5          15m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          6m1s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          90s
+flask-568ccc9777-tqw7q   1/1     Running   0          76s
+flask-568ccc9777-zsv6l   1/1     Running   0          90s
+Tue Nov 24 14:56:19 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 138%/50%   1         5         5          15m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          6m4s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          93s
+flask-568ccc9777-tqw7q   1/1     Running   0          79s
+flask-568ccc9777-zsv6l   1/1     Running   0          93s
+Tue Nov 24 14:56:22 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 138%/50%   1         5         5          15m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          6m6s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          95s
+flask-568ccc9777-tqw7q   1/1     Running   0          81s
+flask-568ccc9777-zsv6l   1/1     Running   0          95s
+Tue Nov 24 14:56:24 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 138%/50%   1         5         5          15m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          6m9s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          98s
+flask-568ccc9777-tqw7q   1/1     Running   0          84s
+flask-568ccc9777-zsv6l   1/1     Running   0          98s
+Tue Nov 24 14:56:27 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 138%/50%   1         5         5          15m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          6m11s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          100s
+flask-568ccc9777-tqw7q   1/1     Running   0          86s
+flask-568ccc9777-zsv6l   1/1     Running   0          100s
+Tue Nov 24 14:56:29 CST 2026
+NAME    REFERENCE          TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 138%/50%   1         5         5          15m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          6m13s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          102s
+flask-568ccc9777-tqw7q   1/1     Running   0          88s
+flask-568ccc9777-zsv6l   1/1     Running   0          102s
+Tue Nov 24 14:56:31 CST 2026
+NAME    REFERENCE          TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+flask   Deployment/flask   cpu: 29%/50%   1         5         5          15m
+NAME                     READY   STATUS    RESTARTS   AGE
+flask-568ccc9777-ktsl4   1/1     Running   0          6m16s
+flask-568ccc9777-s9m7d   1/1     Running   4          11d
+flask-568ccc9777-t2qrb   1/1     Running   0          105s
+flask-568ccc9777-tqw7q   1/1     Running   0          91s
+flask-568ccc9777-zsv6l   1/1     Running   0          105s
