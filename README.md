@@ -66,18 +66,20 @@ document as each week's wiki directions require.
 2. Consult with your team's System Admin and QA roles.
 3. Contact the course instructor if blocked.
 
-## How to run this
+## How to Run This Project
 
-How to Run This Project
-1. Clone the Repository
+### 1. Clone the Repository
+
 ```
-git clone [<YOUR_REPOSITORY_URL>](https://github.com/xion2633-max/inet4031-team6.git)
+git clone https://github.com/xion2633-max/inet4031-team6.git
 cd inet4031-team6
 ```
 
-2. Verify the Environment
+### 2. Verify the Environment
+
+The example configuration uses port `8096`.
+
 ```
-export N=6
 k3d cluster list
 kubectl get nodes -o wide
 kubectl get deploy,svc,pods -n default
@@ -88,15 +90,21 @@ kubectl top nodes
 
 Check application health:
 
-```curl -i http://localhost:$((8090 + N))/health```
+```
+curl -i http://localhost:8096/health
+```
 
-3. Deploy Changes
+Expected response: `HTTP 200 OK`.
 
-Shared VM: Apply your Kubernetes manifests after completing the required pull request workflow.
+### 3. Deploy Kubernetes Manifests
 
-```kubectl apply -f <PATH_TO_MANIFESTS>```
+After completing the required pull request workflow, apply the application manifests:
 
-4. Verify Deployments
+```
+kubectl apply -f manifests/
+```
+
+### 4. Verify Deployments
 
 ```
 kubectl get deployments
@@ -106,39 +114,57 @@ kubectl get pdb
 kubectl get networkpolicy
 ```
 
-5. Run Load Tests
+### 5. Run Load Tests
 
-Run the autoscaling test:
+**Run the baseline test** to measure application performance under normal traffic:
 
-```k6 run capstone/networking-cloud/k6/<AUTOSCALING_SCRIPT>.js```
+```
+k6 run capstone/networking-cloud/k6/baseline.js
+```
 
-Monitor autoscaling:
+**Run the autoscaling test** to generate increased traffic and demonstrate Kubernetes Horizontal Pod Autoscaling:
 
-```kubectl get hpa -w```
+```
+k6 run load-test.js
+```
 
+In a separate terminal, monitor the HPA:
 
-Run the failure drill using the appropriate Shared VM or Local VM procedure documented in capstone/networking-cloud/RUNBOOK.md.
+```
+kubectl get hpa -w
+```
 
-6. Verify Application Health
+The Flask deployment should scale between 1 and 5 replicas based on CPU utilization.
 
-Confirm the application responds successfully:
+### 6. Run the Node Failure Drill
 
-```curl -i <YOUR_APPLICATION_HEALTH_URL>```
+Run the failure drill:
 
-Expected HTTP response:
-200 OK
+```
+k6 run capstone/networking-cloud/k6/drill.js
+```
 
-7. Save Evidence
+Follow the node-stop and recovery procedure documented for the appropriate environment.
+
+### 7. Verify Application Health
+
+```
+curl -i http://localhost:8096/health
+```
+
+Expected response: `HTTP 200 OK`.
+
+### 8. Save Evidence
 
 Save test results, HPA history, failure drill timestamps, and memory calculations in:
 
+```
 capstone/networking-cloud/evidence/
+```
 
-8. Documentation
+### 9. Additional Documentation
 
-Refer to the following files for additional information:
-
-capstone/networking-cloud/RUNBOOK.md – Deployment, testing, and recovery instructions.
-capstone/networking-cloud/ARCHITECTURE.md – Application networking and architecture.
-capstone/networking-cloud/TOOL-VERSIONS.txt – Installed tool versions.
-capstone/networking-cloud/REBUILD-GAPS.md – Fresh VM rebuild issues.
+- `capstone/networking-cloud/ARCHITECTURE.md` – Application networking and architecture.
+- `capstone/networking-cloud/TOOL-VERSIONS.txt` – Installed tool versions.
+- `capstone/networking-cloud/REBUILD-GAPS.md` – Fresh VM rebuild issues.
+- `capstone/networking-cloud/NOTES.md` – Additional project notes.
